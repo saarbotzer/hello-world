@@ -1,4 +1,2 @@
-print "Hello-world"print "Hello-world"
-
-def f(f):
-    return f
+def hello(word):
+    return "Hello {word}".format(word=word)
